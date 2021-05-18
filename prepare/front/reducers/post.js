@@ -1,0 +1,95 @@
+export const initialState = {
+  mainPosts: [
+    {
+      id: 1,
+      User: {
+        id: 1,
+        nickname: "피카츄",
+      },
+      content: "첫 번째 게시글 #해시태그 #익스프레스",
+      Images: [
+        {
+          src: "https://lh3.googleusercontent.com/proxy/cgnfrkXWJgRyZ2yo-EhlX1NiyEdMRtiCLrMDzHSPd0AkWr8M4hXWsDtPkqKXWJDYH9iFH_MFVID7x7ePu_6A3wR3XFumqx7_eaIR9lWwjGgcTV26uQ",
+        },
+        {
+          src: "data:image/jpeg;base64,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",
+        },
+        {
+          src: "https://pds.joins.com/news/component/htmlphoto_mmdata/201909/01/136ad58b-b410-4db8-939b-ec0b40b9d1f5.jpg",
+        },
+      ],
+      Comments: [
+        {
+          User: {
+            nickname: "nero",
+          },
+          content: "우와",
+        },
+        {
+          User: {
+            nickname: "keroro",
+          },
+          content: "얼른 머스크",
+        },
+      ],
+    },
+  ],
+  imagePaths: [],
+  postAdded: false,
+};
+
+//action creator
+const ADD_POST = "ADD_POST";
+export const addPost = {
+  type: ADD_POST,
+};
+
+const dummyPost = {
+  id: 2,
+  User: {
+    id: "admin",
+    nickname: "이안",
+  },
+  content: "더미데이터 입니다",
+  Images: [
+    {
+      src: "https://lh3.googleusercontent.com/proxy/cgnfrkXWJgRyZ2yo-EhlX1NiyEdMRtiCLrMDzHSPd0AkWr8M4hXWsDtPkqKXWJDYH9iFH_MFVID7x7ePu_6A3wR3XFumqx7_eaIR9lWwjGgcTV26uQ",
+    },
+    {
+      src: "data:image/jpeg;base64,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",
+    },
+    {
+      src: "https://pds.joins.com/news/component/htmlphoto_mmdata/201909/01/136ad58b-b410-4db8-939b-ec0b40b9d1f5.jpg",
+    },
+  ],
+  Comments: [
+    {
+      User: {
+        nickname: "nero",
+      },
+      content: "우와",
+    },
+    {
+      User: {
+        nickname: "keroro",
+      },
+      content: "얼른 머스크",
+    },
+  ],
+};
+
+const reducer = (state = initialState, action) => {
+  switch (action.type) {
+    case ADD_POST:
+      return {
+        ...state,
+        mainPosts: [dummyPost, ...state.mainPosts],
+        postAdded: true,
+      };
+
+    default:
+      return state;
+  }
+};
+
+export default reducer;

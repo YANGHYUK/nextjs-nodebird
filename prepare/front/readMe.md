@@ -16,3 +16,5 @@
 16. AppLayout에 로그인 여부에 따른 LoginForm, UserProfile추가
 17. LoginForm에 login 로직 설정하여 UserProfile.js와 LoginForm을 분기해주는 로직 추가
 18. components에서 NicknameEditForm, FollowList 제작하여 pages/profile.js에 추가
+19. redux 붙이기
+20. yarn add redux react-redux next-redux-wrapper redux-saga next-redux-saga redux-devtools-extension
